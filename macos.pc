@@ -2,7 +2,7 @@ prefix=/usr/local/opt/openssl
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
-Name: CTLS
+Name: KittenCTLS
 Description: LibreSSL / OpenSSL module map for Swift
 Version: 1.0
 Requires: libssl libcrypto

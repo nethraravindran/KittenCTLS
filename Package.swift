@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CTLS",
+    name: "KittenCTLS",
     pkgConfig: "ctls",
     providers: [
         .Brew("ctls"),
