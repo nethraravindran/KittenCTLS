@@ -1,12 +1,7 @@
-// swift-tools-version:3.1
-
+// swift-tools-version:4.0
 import PackageDescription
 
 let package = Package(
     name: "KittenCTLS",
-    pkgConfig: "openssl",
-    providers: [
-        .Brew("openssl"),
-        .Apt("openssl")
-    ]
+    pkgConfig: "openssl"
 )
